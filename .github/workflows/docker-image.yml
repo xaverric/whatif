@@ -1,8 +1,6 @@
 name: Run Docker Image
 
-on:
-  schedule:
-  - cron: "0 2 * * *"
+on: workflow_dispatch
 
 jobs:
   build:
