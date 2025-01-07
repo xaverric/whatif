@@ -1,0 +1,17 @@
+{
+  "name": "what-if",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "lowdb": "^7.0.1",
+    "twitter-api-v2": "^1.19.0"
+  }
+}
