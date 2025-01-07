@@ -16,7 +16,7 @@ const main = async () => {
     model: 'llama3:8b',
     messages: [{
       role: 'user',
-      content: `Answer this question in the form of the short sentence. Popular educational form, with emojis. First add a question as a headline, then in the bullet points provide an answer. Provide two bullet point, very short answers. At the end, ad a line with the question related hashtags, also add a #whatif hashtag. Question: ${question}`
+      content: `Answer this question in the form of the short sentence. Popular educational form, with emojis. First add a question as a headline with no styling, then in the bullet points provide an answer. Provide two bullet point, very short answers. At the end, ad a line with the question related hashtags, also add a #whatif hashtag. Question: ${question}`
     }],
     stream: false
   });
